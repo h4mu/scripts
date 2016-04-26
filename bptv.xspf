@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>dvb://frequency=609937500:bandwidth=8:voltage=13:fec=9:modulation=0:srate=0</location>
+			<title>Duna World</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>program=120</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>dvb://frequency=770000000:bandwidth=8:voltage=13:fec=9:modulation=0:srate=0</location>
+			<title>RTL Klub</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+				<vlc:option>program=203</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>dvb://frequency=770000000:bandwidth=8:voltage=13:fec=9:modulation=0:srate=0</location>
+			<title>TV2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+				<vlc:option>program=204</vlc:option>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+			<vlc:item tid="1"/>
+			<vlc:item tid="2"/>
+	</extension>
+</playlist>

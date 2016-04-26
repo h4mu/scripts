@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>DVB Playlist</title>
+	<creator>w_scan-20140727</creator>
+	<info>http://wirbel.htpc-forum.de</info>
+	<trackList>
+		<track>
+			<title>0001. M1 HD</title>
+			<location>dvb-t://frequency=610000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=1</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>2</vlc:id>
+				<vlc:option>program=100</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0002. M4 Sport HD</title>
+			<location>dvb-t://frequency=610000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=1</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>3</vlc:id>
+				<vlc:option>program=101</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0003. Duna World</title>
+			<location>dvb-t://frequency=610000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=1</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>4</vlc:id>
+				<vlc:option>program=120</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0004. Duna HD</title>
+			<location>dvb-t://frequency=610000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=1</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>5</vlc:id>
+				<vlc:option>program=121</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0005. Kossuth Radio</title>
+			<location>dvb-t://frequency=610000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=1</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>6</vlc:id>
+				<vlc:option>program=130</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0006. Petofi Radio</title>
+			<location>dvb-t://frequency=610000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=1</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>7</vlc:id>
+				<vlc:option>program=131</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0007. Bartok Radio</title>
+			<location>dvb-t://frequency=610000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=1</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>8</vlc:id>
+				<vlc:option>program=132</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0008. Danko Radio</title>
+			<location>dvb-t://frequency=610000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=1</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>9</vlc:id>
+				<vlc:option>program=133</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0009. FOX</title>
+			<location>dvb-t://frequency=634000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=4</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>10</vlc:id>
+				<vlc:option>program=401</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0010. DIGI Sport 1</title>
+			<location>dvb-t://frequency=634000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=4</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>11</vlc:id>
+				<vlc:option>program=402</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0011. RTL II</title>
+			<location>dvb-t://frequency=634000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=4</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>12</vlc:id>
+				<vlc:option>program=403</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0012. Super TV2</title>
+			<location>dvb-t://frequency=634000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=4</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>13</vlc:id>
+				<vlc:option>program=404</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0013. Slager TV</title>
+			<location>dvb-t://frequency=634000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=4</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>14</vlc:id>
+				<vlc:option>program=405</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0014. Disney Channel</title>
+			<location>dvb-t://frequency=634000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=4</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>15</vlc:id>
+				<vlc:option>program=406</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0015. Spektrum</title>
+			<location>dvb-t://frequency=634000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=4</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>16</vlc:id>
+				<vlc:option>program=407</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0016. Paramount Channel</title>
+			<location>dvb-t://frequency=634000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=4</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>17</vlc:id>
+				<vlc:option>program=408</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0017. Discovery Channel</title>
+			<location>dvb-t://frequency=634000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=4</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>18</vlc:id>
+				<vlc:option>program=409</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0018. TLC</title>
+			<location>dvb-t://frequency=634000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=4</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>19</vlc:id>
+				<vlc:option>program=410</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0019. Viasat6</title>
+			<location>dvb-t://frequency=634000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=4</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>20</vlc:id>
+				<vlc:option>program=411</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0020. Viasat History</title>
+			<location>dvb-t://frequency=634000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=4</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>21</vlc:id>
+				<vlc:option>program=412</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>0021. Ozone Network</title>
+			<location>dvb-t://frequency=634000000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=8</vlc:option>
+				<vlc:option>dvb-ts-id=4</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/4</vlc:option>
+				<vlc:id>22</vlc:id>
+				<vlc:option>program=413</vlc:option>
+			</extension>
+		</track>
+	</trackList>
+</playlist>
