@@ -48,3 +48,10 @@ android-ndk-r12b/ndk-build
 if [[ -z "$3" ]]; then
     rm "$ZIPFILE"
 fi
+
+#curl https://dl.google.com/android/android-sdk_r22.3-linux.tgz | tar xz
+#cd android-sdk-linux/
+#./tools/android update sdk -t 2,3,12 --no-ui
+#sudo apt-get update
+#sudo apt-get install zlib1g:i386 default-jdk
+#wget https://dl-ssl.google.com/android/repository/sys-img/android/sysimg_x86-17_r02.zip
