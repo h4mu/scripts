@@ -1,2 +1,4 @@
-#ffmpeg -vaapi_device /dev/dri/renderD128 -f x11grab -video_size 1920x1080 -i :0 -vf 'hwupload,scale_vaapi=format=nv12' -c:v h264_vaapi -qp 24 -y output.mp4
-ffmpeg -vaapi_device /dev/dri/renderD128 -f x11grab -video_size 1920x1080 -thread_queue_size 1024 -framerate 30 -i :0.0 -f alsa -ac 2 -thread_queue_size 512 -i pulse -vf 'hwupload,scale_vaapi=format=nv12' -c:v h264_vaapi -qp 24 -y output.mp4
+ulimit -m 4000000
+#ffmpeg -s 1920x1080 -f x11grab -thread_queue_size 1024 -framerate 30 -i :0.0 -f alsa -ac 2 -thread_queue_size 512 -i pulse -vcodec libx264 -preset ultrafast -tune animation -profile:v main -b:v 5M -minrate:v 5M -maxrate:v 5M -bufsize:v 5M -pix_fmt yuv420p -bf:v 3 -threads 1 -y output.mp4
+# pacmd list-sources
+ffmpeg -loglevel quiet -vaapi_device /dev/dri/renderD128 -s 1920x1080 -f x11grab -thread_queue_size 1024 -framerate 30 -i :0.0 -f alsa -ac 2 -thread_queue_size 512 -f pulse -ac 2 -i 1 -vf 'hwupload,scale_vaapi=format=nv12' -c:v h264_vaapi -b:v 5M -minrate:v 5M -maxrate:v 5M -bufsize:v 5M -threads 1 -f flv rtmp://live-prg.twitch.tv/app/$token
